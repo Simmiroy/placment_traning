@@ -14,7 +14,7 @@ public class bit {
     }
 
     public static void main(String[] args) {
-        int result=no_bits(10);
+        int result=no_bits(8);
         System.out.println(result);
     }
 }
