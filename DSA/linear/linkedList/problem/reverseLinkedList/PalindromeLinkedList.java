@@ -2,14 +2,6 @@ package DSA.linear.linkedList.problem.reverseLinkedList;
 
 import java.util.Stack;
 
-class ListNode{
-int data;
-ListNode next;
-ListNode(int data){
-        this.data= data;
-        this.next= null;
-}
-}
 public class PalindromeLinkedList {
         public static boolean isPalindrme(ListNode head){
                 Stack<Integer> stack = new Stack<>();
